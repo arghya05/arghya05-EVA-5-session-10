@@ -25,20 +25,20 @@ Introduced to Adam and RMSProps algorithmns as well.
 * **Architecture** - ResNet
 * **Image agumentation** - HorizontalFlip, Rotate, RGBShift, Normalise, Cutout.
 * **Dropout** - 0
-* **Best Lr got from LR Finder** - 0.02417315480804103
+* **Best Lr got from LR Finder** - 0.0029853826189179594
 * **No Of Epochs** - 50
 
 ## Results
-* Best Traing Accuracy - **97.30%(50th Epoch)**
-* Best Test Accuracy - **93.80%(42nd Epoch)**
+* Best Traing Accuracy - **95.91%(47th Epoch)**
+* Best Test Accuracy - **91.27%%(50nd Epoch)**
 * LR Finder Curve
 
-![LR Finder Curve](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Lr_finder_plot.png "Lr finder Curve")
+![LR Finder Curve](https://github.com/arghya05/arghya05-EVA-5-session-10/blob/master/S10%20Solution/Assets/Assets/Lr%20finder.png "Lr finder Curve")
 * Accuracy Change Graph
 
- ![Accuracy Change Graph](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/AccuracyChange.png "Accuracy Change Graph")
+ ![Accuracy Change Graph](https://github.com/arghya05/arghya05-EVA-5-session-10/blob/master/S10%20Solution/Assets/Assets/accuracy.png "Accuracy Change Graph")
 * MisClassified Images
-![Misclassified with GradCAm](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session10/Assets/Misclassified_images_withGradCam.png "Misclassifed images with GradCam")
+![Misclassified with GradCAm](https://github.com/arghya05/arghya05-EVA-5-session-10/blob/master/S10%20Solution/Assets/Assets/grad%20cam.png "Misclassifed images with GradCam")
 
 ## Observations
 * Model is slightly overfitting. Need to add more images agumentation techniques.
